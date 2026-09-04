@@ -14,7 +14,7 @@ function convertToRoman(num) {
 	
 	for (let i = 0; i < val.length; i++) {
 	    while (num >= val[i]) {
-      ans += sym[i];
+      ans += syb[i];
       num -= val[i];
     }
   }
